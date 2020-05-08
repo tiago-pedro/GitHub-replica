@@ -1,0 +1,755 @@
+/* Font family class */
+.sans-serif {
+  font-family: sans-serif;	
+}
+
+/* Website's header styling */
+header nav div:first-child {
+  width: 800px;
+}
+
+header nav{
+  background-color: #24292e;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  color: rgba(255,255,255, 0.9);
+  height: 72px;
+  line-height: 72px; /* Centers the content in the middle of the nav if it has its height has line-height */
+}
+
+header nav ul{
+  margin: 0 0 0 65px;
+  font-size: 17px;
+  display: flex; /*Displays all content in a row by default*/
+  justify-content: space-around;
+  list-style: none;
+}
+
+header nav ul a{
+  color: white;
+  text-decoration: none; /* Removes the default html underline link styling on the nav buttons */
+}
+
+header nav ul li:hover {
+  opacity: 0.8;  
+}
+
+header nav ul img {
+  padding-top: 16px;
+}
+
+#search-bar {
+  width: 30%;
+  padding-right: 40px;
+  margin-right: 60px;
+  justify-content: space-evenly;  
+}
+
+#search-bar ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;  
+}
+
+nav i { /* This element is used to create the arrow next to the nav's menu options */
+  border: solid white;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-bottom: 3px;  
+}
+
+/*Body Styling zone*/
+body {
+  margin: 0;
+}
+
+/* Common Paragraph Styling */
+p {
+	
+}
+
+/* Section 1 Styling*/
+#section1 {
+  background-color: #1d242bf2;
+  height: 629px;
+  justify-content: space-evenly;
+  padding: 0 100px;
+}
+
+/*Styling of the section's First div*/ 
+#section1 h1{
+  color:white;
+  margin: 0;
+  font-size: 68px;
+}
+
+#section1 div {
+  margin-left: 40px;
+  margin-right: 20px;  
+}
+
+#section1 div:first-child{
+  width: 400px;
+  height: 60%;
+  padding-top: 140px;
+}
+
+#section1 div:first-child p{
+  width: 400px;
+  color: white;
+  font-size: 21px;
+  margin: 8px;
+  text-align: justify;
+}
+
+/*Styling of the section's Second Div*/
+#form-card {
+  background-color: white;
+  border-radius: 0.5%;
+  width: 400px;
+  height: 75%;
+  margin-top: 65px;
+  padding-top: 25px;
+}
+
+#form-card input{
+  width: 80%;
+  padding: 10px 10px;
+  margin: 5px 30px 10px 30px;
+} 
+
+#form-card label{
+  margin: 0px 30px;
+}
+
+#form-card form {
+  height: 250px;
+  line-height: 30px;
+}
+
+#form-button {
+  text-decoration: none;	
+}
+
+/*Section 2 Styling*/
+.blue-box {
+  justify-content: space-between;  
+  background-color: #00448b;
+  border: 6px solid #00448b;
+  border-radius: 5px;
+  margin: 50px 130px; 
+}
+
+.blue-box p {
+  color:white;
+  font-size: 22px;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+#green-newsign {
+  color: #2ead2e;
+  font-family: Calibri;
+  font-size: 14px;
+  border: 1px solid #34c834;
+  border-radius: 2px;
+  margin: 0 10px 5px 5px;
+  padding: 0 5px;  
+}
+
+/*Styling of the frase below the one that says "GitHub is now free for teams"*/
+#company-benefits {
+  font-size: 16px;
+  padding-left: 62px;  
+}
+
+/*Section 3 styling*/
+#section3 {
+  text-align: center;
+  height: 350px;  
+}
+
+/*Section 4 styling*/
+#section4 {
+  justify-content: space-evenly;
+  margin: 0px 50px 50px 50px;
+}
+
+#section4 ul {
+  list-style: none;
+  width: 500px;
+}
+
+#section4 i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px 3px 3px 3px;
+  line-height:100px;
+}
+
+/*Section 5 Styling*/
+#section5 {
+  text-align: center;
+  margin: 20px 0px;
+  padding: 50px 0px;
+  margin-bottom: 50px;
+}
+
+#section5 > p {
+  color: grey;
+  font-size: 21px;
+}
+
+/*Section 6 styling*/
+#section6 {
+  text-align: center;   
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/*Section 7 Styling*/
+#section7 {
+  margin: 10px 150px;
+}
+
+#section7 div:first-child{
+  justify-content: space-evenly; 
+}
+
+#section7 div+div{
+  justify-content:space-around;	
+}
+
+#section7 ul{
+  width: 400px;
+  list-style: none;
+}
+
+#section7 ul li p+p{
+  color: grey;
+  font-family: calibri;
+}
+
+#section7 a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #0366d6;
+}
+
+#section7 a:hover .moving-arrow {
+  padding-left: 2px;
+}
+
+/*Section 8 Styling*/
+#section8 {
+  text-align: center;
+  padding: 200px 0px;
+}
+
+#section8 ul{
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 50px 250px;
+  text-align: center;
+  margin: 16px 50px;
+}
+
+#section8 ul+p {
+  font-size: 14px;
+  color: grey;  
+}
+
+#section8 a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #0366d6;
+}
+
+#section8 a:hover .moving-arrow {
+  padding-left: 2px;
+}
+
+/*Section 9 Styling*/
+#section9 {
+  text-align: center;
+}
+
+/*Section 10 Styling*/
+#section10 {
+  justify-content: space-around;
+  margin: 20px 150px;
+}
+
+#section10 ul {
+  justify-content: space-evenly;
+  list-style: none;
+  width: 500px;
+}
+
+#section10 i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px 3px 3px 3px;
+  line-height:100px;
+}
+
+/*Section 11 Styling*/
+#section11 {
+  color: white;
+  background-color: #24292e;
+  text-align: center;
+  padding: 50px 50px 80px 50px; 
+}
+
+#section11 p:first-child {
+  font-size: 32px;
+  padding-bottom: 15px;
+}
+
+#section11 form {
+  justify-content: space-evenly; 
+  margin: 0 100px;
+}
+
+#section11 form div {
+  width: 200px;
+  text-align: left;
+  margin: 10px 40px;  
+}
+
+#section11 form div label{
+  font-size: 12px;	
+}
+
+#section11 form div input{
+  padding: 10px 90px 10px 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 3px;  
+}
+
+::placeholder{
+  color: rgba(0,0,0,0.3);
+  opacity: 1;  
+}
+
+#section11 .sign-up{
+  background-color: rgba(25, 175, 25, 1);
+  font-size: 14px;
+  font-family: calibri;
+  padding: 10px 20px;
+  width: 200px;
+}
+
+#section11 .sign-up:hover {
+  background-color: rgba(0, 128, 0, 0.8);	
+}
+
+#section11 form+p {
+  font-size: 12px;
+  color: #6a737d;  
+}
+
+#section11 form+p span{
+  color: white;
+}
+
+#section11 form+p span:hover{
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+/*Section 12 Styling*/
+#section12 {
+  justify-content: space-between;
+  padding: 55px 0px;   
+  margin: 0 25px;
+}
+
+#section12 h3 {
+  font-size: 30px;
+  width: 100px;
+  margin-top: 0px;
+  padding-left: 100px; 
+}
+
+#section12 div{
+  justify-content: space-between;
+  width: 750px;
+  padding-right: 100px;
+  float:right;
+}
+
+#section12 ul {
+  list-style: none;
+  font-family: calibri;
+  color: #6a737d;
+  line-height: 30px;
+}
+
+#section2 div ul li {
+  margin: 10px 0px;
+  font-size: 12px;
+}
+
+.title {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace!important; 	
+}
+
+#section12 div ul li a {
+  text-decoration: none;
+  color: #6a737d;
+}
+
+#section12 div ul li a:hover {
+  color: rgb(45, 100, 245);
+  text-decoration: underline; 
+}
+
+/*Footer Styling: End of the website*/
+footer {
+  background-color: rgba(125,125,125,0.1);
+  justify-content: space-between;  
+}
+
+footer div{
+  justify-content: space-evenly;
+}
+
+footer div:first-child {
+  width: 250px;
+  font-size: 12px;
+  line-height: 50px;
+  padding-left: 150px;
+  color: #6a737d;  
+}
+
+footer div ul{
+  justify-content: space-evenly;
+  list-style: none;
+  line-height: 50px;
+  padding-left: 0px;
+  padding-right: 150px;
+  width: 200px; 
+}
+
+footer div:first-child a{
+  text-decoration: none;
+  color: #6a737d;
+}
+
+footer div:first-child a:hover {
+  color: rgb(45, 100, 245);
+  text-decoration: underline;
+}
+
+
+/*--------------------------------------------------------All the Implemented classes---------------------------------------------------------------*/
+.flex-box{
+  display: flex;            /*Displays the content in a line by default*/
+  flex-flow: row wrap;  
+}
+
+.search-input {
+  padding: 5px 30px 5px 5px;
+  border-color: #38424bf2;
+  background-color: #38424bf2;  
+}
+
+.search-input::placeholder {
+  color: rgba(255,255,255,0.7); 
+}
+
+.search-input[type=text]:focus {
+  background-color: white;
+  border-color: white;
+}
+
+.arrow-down { /* Arrow graphical design class */
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  opacity: 0.6;
+}
+
+.arrow-right {
+  float: right;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  line-height: 453px;
+}
+
+.arrow-down:hover {
+  opacity: 1;	
+} 
+
+/*Creating dropdown hover menus*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}	
+
+.dropdown-content {
+  display: none;
+  line-height: 30px;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  padding: 5px 12px 5px 20px;
+  margin-left: 0px;
+  z-index: 1;
+}
+
+.drop-link {
+	color: black;
+}
+
+/*Implementation of the hover displayability*/
+.drop-link:hover{
+	color: rgba(3, 94, 216, 0.8);
+} 
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.rules {
+  margin: 0 30px;
+  color: grey;
+  text-align: justify;
+  font-size: 13px;
+  font-family: Calibri;
+}
+
+.whiteCard-ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;	
+}
+
+.white-card {
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+  margin: 15px 15px; 
+}
+
+.white-card h5 {
+  color: rgba(0,0,0,0.8);
+  margin-bottom: 5px;  
+}
+
+.white-card p {
+  width: 250px;	
+}
+.white-card p, h5 {
+  text-align: left;
+}
+
+.description {
+  color: grey;
+  font-size: 14px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(192,192,192,0.5);
+}
+
+.blue-link {
+  color: rgb(45, 100, 245);
+  text-decoration-color: rgba(45, 100, 245, 0);
+}
+
+.blue-link:hover {
+  text-decoration-color: rgba(45, 100, 245, 1); 
+}
+
+.sign-up {
+  background-color: rgba(0, 128, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 20px;
+  width: 85%;
+  padding: 30px 0px;
+  margin: 20px 30px;  
+}
+
+.sign-up:hover {
+  background-color: rgba(0, 128, 0, 0.8);	
+}
+
+.black-font-color {
+  color: black;
+}
+
+.sign-up-button {
+  border: 1px solid white;
+  border-color: rgba(255,255,255, 0.8);
+  padding: 8px;  
+}
+
+.lower-opacity {
+  opacity: 0.6;
+}
+
+.white-link {
+  opacity: 1;	
+  color: white;
+  text-decoration-color: rgba(255, 255, 255, 0.2);   
+}
+
+.white-link:hover { 
+  text-decoration-color: rgba(255, 255, 255,1);	
+}
+
+.linked-button {
+  color: blue;
+  font-size: 17px;
+  border: 1px solid rgba(0,0,255,0.2);
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px 50px;
+  margin: 10px 0;  
+}
+
+/*"Try GitHub Free" button styling*/
+.try-github-free {
+  color: white;
+  font-size: 18px;
+  background-color: rgb(16, 116, 231);
+  border: none;
+  padding: 20px 75px;
+  margin: 0 40px;
+}
+
+.try-github-free:hover {
+  background-color: rgba(16, 116, 231, 0.6);
+}
+
+.business-usage {
+  text-align: center;
+  color: rgba(0,0,0,0.5);
+  font-size: 20px;
+  margin: 100px 150px;
+}
+
+
+a:hover .linked-button {
+  border: 1px solid rgba(0,0,255,0.8);
+}
+
+a:hover .linked-button .moving-arrow{
+  padding-left: 2px;
+}
+
+.invisible-box {
+  border: 1px solid rgba(0,0,0,0);
+  padding: 0 20px 10px 25px;
+  
+}
+
+.invisible-box:hover {
+  border-color: rgba(0,0,0,0.3);
+  box-shadow: 1px 1px 1px 1px rgba(169,169,169,0.4);
+}
+
+.ul-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgba(0,0,0,0.6);
+}
+
+.white-box {
+  margin-top: 50px;
+  width: 650px;
+  height: 230px;
+  border: 1px solid rgba(169,169,169,0.4);
+}
+
+.white-box:hover{
+  box-shadow: 2px 2px 2px 2px rgba(169,169,169,0.4);	
+}
+
+.white-box div+div{
+  width: 450px;
+  padding: 10px 0 50px 10px;
+}	
+
+.white-box div+div h4{
+  margin-bottom: 0;
+  font-size: 20px;
+  color: rgba(0,0,0,0.6);
+}
+
+.white-box div+div p{
+  color: grey;
+  font-family: calibri;
+  margin-top: 5px;
+}
+
+.white-box div img {
+  padding: 30px;
+}
+/*------Content separator's styling------*/
+.sp-paragraph{
+  color: rgb(105,105,105);
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace!important;
+}
+
+.content-shifterTitle{
+  color: rgba(1,1,1,0.9);
+  font-size: 52px;
+  margin: 10px 0 3px 0;
+}
+
+.p2 {
+  color: rgba(105,105,105, 0.9);	
+  font-size: 22px;
+}
+
+.lower-row{
+  padding-top: 50px;
+}
+
+.text-alignment {
+  padding: 20px 0px 0px 0px;
+  color: grey;
+}
+
+/*---------------------------------------*/
+
+/*----------------------------------------------Mobile responsiveness configuration - Media rules only-----------------------------------------------*/
+@media only screen and (max-width: 1320px) {
+  header nav {
+	display: none;
+  }
+}
+
+@media only screen and (max-width: 1177px) {
+  .lower-row {
+	padding-top: 0px;  
+  }
+  
+  #section8 ul {
+	padding: 20px 200px; 
+  }
+}
+
+@media only screen and (max-width: 1136px) {	
+  #section1 {
+	height: auto;  
+  }
+  
+  #section1 div:first-child {
+	padding-top: 50px;  
+  }
+  
+  #form-card {
+	margin-bottom: 50px;
+    padding-bottom: 20px;	
+  }
+}
+	
