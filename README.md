@@ -7,6 +7,6 @@ Through out the execution of this project I used a Flex-box most of the times as
 
 My approach to the styling in the external cascading style sheet was to give an ID to each section (Naming the sections) and dealing with them separately one by one. I focused on one section at a time and when it looked fairly similar to the original website I proceeded to mov to the next one.
 
-All the rights are for this project are reserved to the maker and the code presented in this repository is only used for academic purposes and has by no means the intention to serve has a thrid party website to redirect people to a fake GitHubg page.
+<strong>The code presented in this repository is only used for academic purposes and has by no means the intention to serve has a thrid party website to redirect people to a fake GitHubg page<strong>.
 
 This is an academic project only.
