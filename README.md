@@ -13,7 +13,7 @@ Here are some of the HTML tags that where used in the code for this website:
   <li>meta data</li>
   <li>navs</li>
   <li>header</li>
-  <li>span elements<li>
+  <li>span elements</li>
   <li>'i' graphical elements</li>
 </ul>
 
