@@ -1,7 +1,7 @@
 # GitHub-replica
-This project is a replica of GitHub's main page for an online course provided in the website Pirple-com.
+This project is a replica of **GitHub's main page** for an online course provided in the website Pirple-com.
 
-In this final project I learned how to structure a website from scratch writting the whole code in raw HTML. I used a lot of the different HTML tags I learned along the course and with the help of some research I was able to replicate a professionally made website despite of some different, more complicated aspects.
+In this final project I learned how to structure a website from scratch, and how to write the whole code in raw HTML. I used a lot of the different HTML tags I learned along the course, and with the help of some research I was able to replicate a professionally made website except some of the more advanced aspects.
 
 Here are some of the HTML tags that where used in the code for this website:
 
